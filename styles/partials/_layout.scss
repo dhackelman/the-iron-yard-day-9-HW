@@ -1,0 +1,10 @@
+body {
+  overflow: hidden;
+  width: 100%;
+}
+
+.user-side, .output-side {
+  float: left;
+  min-height: 200px;
+  width: 50%;
+}

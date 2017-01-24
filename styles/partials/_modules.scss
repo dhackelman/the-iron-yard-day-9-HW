@@ -1,0 +1,35 @@
+
+.user-side {
+  font-weight: 700;
+  line-height: 1.6;
+  overflow: hidden;
+
+  form {
+    float: left;
+    margin: 2%;
+    width: 100%;
+
+    .button-field {
+      margin: 5%;
+    }
+  }
+}
+
+.output-side {
+  font-weight: 700;
+  line-height: 1.6;
+
+  .output-container {
+    border: 2px solid gray;
+    min-height: 200px;
+    margin: 5% auto;
+    padding: 2%;
+    width: 80%;
+
+    .user-entries, .js-calcs {
+      margin: 2% auto;
+      padding: 2%;
+      width: 90%;
+    }
+  }
+}
